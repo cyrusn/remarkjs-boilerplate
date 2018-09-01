@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RemarkJS</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/remark.css">
+  <script src="./js/fontawesome-all.min.js"></script>
+  <script src="./js/remark-latest.min.js"></script>
+</head>
+<body>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'slide.md',
+      ratio: '16:9',
+      highlightStyle: 'solarized-dark',
+      highlightLines: true,
+      scroll: false
+    })
+  </script>
+</body>
+</html>

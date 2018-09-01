@@ -1,0 +1,272 @@
+/*
+Customization for remarkjs css
+*/
+
+.remark-slide-content {
+  font-size: x-large;
+  padding: 1em 2.5em !important;
+  font-weight: 300;
+}
+
+b, strong {
+  font-weight: bold !important;
+}
+
+h1 {
+  font-weight: bolder !important;
+}
+
+h2 {
+  font-weight: unset !important;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+.img-100 img {
+  max-width: 100%;
+}
+
+.img-75 img {
+  max-width: 75%;
+}
+
+.img-50 img {
+  max-width: 50%;
+}
+
+.img-25 img {
+  max-width: 25%;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid silver;
+  border-collapse: collapse
+}
+
+th,
+td {
+  padding: 0.8rem
+}
+
+thead th {
+  font-weight: bold;
+  font-size: 1.1em
+}
+
+tr td:not(:last-child),
+tr th:not(:last-child) {
+  border-right: 1px solid silver
+}
+
+.footnote {
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding: 1rem 4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: small;
+}
+
+.footnote li {
+  list-style: decimal;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.blockquote-primary > blockquote {
+  border-left-color: #007bff;
+}
+
+.blockquote-primary h1,
+.blockquote-primary h2,
+.blockquote-primary h3,
+.blockquote-primary h4,
+.blockquote-primary h5,
+.blockquote-primary h6 {
+  color: #007bff;
+}
+
+.blockquote-secondary > blockquote {
+  border-left-color: #6c757d;
+}
+
+.blockquote-secondary h1,
+.blockquote-secondary h2,
+.blockquote-secondary h3,
+.blockquote-secondary h4,
+.blockquote-secondary h5,
+.blockquote-secondary h6 {
+ color: #6c757d;
+}
+
+.blockquote-success > blockquote {
+  border-left-color: #28a745;
+}
+
+.blockquote-success h1,
+.blockquote-success h2,
+.blockquote-success h3,
+.blockquote-success h4,
+.blockquote-success h5,
+.blockquote-success h6 {
+ color: #28a745;
+}
+
+.blockquote-info > blockquote {
+  border-left-color: #17a2b8;
+}
+
+.blockquote-info h1,
+.blockquote-info h2,
+.blockquote-info h3,
+.blockquote-info h4,
+.blockquote-info h5,
+.blockquote-info h6 {
+ color: #17a2b8;
+}
+
+.blockquote-warning > blockquote {
+  border-left-color: #ffc107;
+}
+
+.blockquote-warning h1,
+.blockquote-warning h2,
+.blockquote-warning h3,
+.blockquote-warning h4,
+.blockquote-warning h5,
+.blockquote-warning h6 {
+ color: #ffc107;
+}
+
+.blockquote-danger > blockquote {
+  border-left-color: #dc3545;
+}
+
+.blockquote-danger h1,
+.blockquote-danger h2,
+.blockquote-danger h3,
+.blockquote-danger h4,
+.blockquote-danger h5,
+.blockquote-danger h6 {
+ color: #dc3545;
+}
+
+.blockquote-light > blockquote {
+  border-left-color: #f8f9fa;
+}
+
+.blockquote-light h1,
+.blockquote-light h2,
+.blockquote-light h3,
+.blockquote-light h4,
+.blockquote-light h5,
+.blockquote-light h6 {
+ color: #f8f9fa;
+}
+
+.blockquote-dark > blockquote {
+  border-left-color: #343a40
+}
+
+.blockquote-dark h1,
+.blockquote-dark h2,
+.blockquote-dark h3,
+.blockquote-dark h4,
+.blockquote-dark h5,
+.blockquote-dark h6 {
+ color: #343a40
+}
+
+blockquote {
+  font-size: smaller;
+  margin: 2rem 0 !important;
+  border: 1px solid #eee;
+  border-left: 8px solid #6c757d;
+  border-radius: 0.25rem;
+  padding: 1em 0 1em 2em;
+  margin: 1rem 0em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.sidebar {
+  border-radius: 0.25rem !important;
+}
+
+.sidebar li {
+  font-size: x-large;
+  color: #868e96;
+}
+
+.sidebar li:last-of-type {
+  color: inherit;
+  font-style: italic;
+  font-weight: bold !important;
+}
+
+.row {
+  height: 100%;
+}
+
+.remark-code {
+  border-radius: 0.25rem !important;
+  font-size: smaller;
+}
+
+.remark-inline-code {
+  padding: 0 !important;
+}
+
+a:link {
+  color: inherit;
+  /*font-weight: border;*/
+  /*font-style: italic;*/
+  text-decoration: none;
+}
+
+a:visited,
+a:active,
+a:hover {
+  font-style: italic;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  font-weight: bolder !important;
+}
+
+.sup {
+  vertical-align: super;
+  font-size: small
+}
+
+/* To ensure all scroll bar will show up by default */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
